@@ -1,0 +1,147 @@
+/* p {
+    text-transform: uppercase;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+.body {
+    gap: 15px;
+    padding: 10px;
+} */
+
+
+ul img {
+    width: 80px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+li {
+    list-style: none;
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 300px;
+    height: 450px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card h1 {
+    font-size: 15px;
+}
+.card b {
+    text-align: center;
+}
+.card p {
+    font-size: 25px;
+}
+.card button {
+     border-radius: 20px;
+     padding: 8px 50px;
+     background-color: red;
+     color: white;
+     border: none;
+     font-size: 25px;
+     text-transform: uppercase;
+}
+.box {
+     width: 300px;
+    height: 450px;
+    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box h1 {
+    font-size: 15px;
+}
+.box b {
+         text-align: center;
+}
+.box p{
+font-size: 25px;
+}
+.box button {
+    border-radius: 20px;
+     padding: 8px 50px;
+     background-color: purple;
+     color: white;
+     border: none;
+     font-size: 25px;
+     text-transform: uppercase;
+}
+.file {
+    width: 300px;
+    height: 450px;
+    background-color: darkkhaki;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.file h1 {
+     font-size: 15px;
+}
+.file b {
+    text-align: center;
+}
+.file p {
+    font-size: 25px;
+}
+.file button {
+     border-radius: 20px;
+     padding: 8px 50px;
+     background-color: darkgoldenrod;
+     color: white;
+     border: none;
+     font-size: 25px;
+     text-transform: uppercase;
+}
+.sun {
+    width: 300px;
+    height: 450px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sun h1 {
+  font-size: 15px;  
+}
+.sun b {
+text-align: center;
+}
+.sun p{
+  font-size: 25px;  
+}
+.sun button {
+   border-radius: 20px;
+     padding: 8px 50px;
+     background-color: darkcyan;
+     color: white;
+     border: none;
+     font-size: 25px;
+     text-transform: uppercase; 
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
